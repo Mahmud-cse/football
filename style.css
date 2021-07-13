@@ -3,4 +3,124 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header css */
+.first {
+    background-color: #2D25A0;
+    display: flex;
+    height: 100vh;
+}
+
+.half {
+    width: 50%;
+}
+
+.half h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    padding-top: 150px;
+    padding-left: 156px;
+    padding-bottom: -2px;
+    margin-bottom: 15px;
+}
+
+.half a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 156px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0 10px 24px;
+    background: #E02C6D;
+}
+
+.fa-arrow-right.arrow {
+    padding: 10px;
+    padding: 10px 29px 10px 10px;
+}
+
+.half img {
+    width: 556.01px;
+    height: 438px;
+    height: 438px;
+    padding-top: 153px;
+    padding-right: 141px;
+    padding-bottom: 86px;
+}
+
+.first .half img:hover {
+    transform: translateX(40px);
+    transition: transform 0.7s;
+}
+
+/* Players css */
+
+.player-r1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 27px;
+}
+
+.player-r2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 27px;
+}
+
+.player-r3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+    margin-top: 27px;
+}
+
+.player {
+    width: 300px;
+    height: 415px;
+    /* margin-top: 27px; */
+    /* margin-left: 30px; */
+    /* margin-bottom: 27px; */
+    border: 18px solid white;
+    box-shadow: 0px 0px 40px #00000026;
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+    object-fit: cover;
+    margin-bottom: 6px;
+
+}
+
+.player-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player-title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    margin: 8px 0px;
+}
+
+.player-info {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0px;
 }
