@@ -89,7 +89,7 @@ body {
 
 .player {
     width: 300px;
-    height: 415px;
+    height: 420px;
     /* margin-top: 27px; */
     /* margin-left: 30px; */
     /* margin-bottom: 27px; */
@@ -123,4 +123,40 @@ body {
     font-size: 16px;
     line-height: 26px;
     margin-top: 0px;
+}
+
+/* Footer css */
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+    margin-left: 16px;
+}
+
+.icon {
+    width: 70%;
+    height: 70%;
+}
+
+.third h3 {
+    height: 31px;
+    width: 238px;
+    font-weight: normal;
+    display: flex;
+    font-size: 18px;
+
 }
