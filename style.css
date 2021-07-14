@@ -14,7 +14,7 @@ body {
 }
 
 .half {
-    width: 50%;
+    flex-basis: 50%;
 }
 
 .half h1 {
@@ -225,6 +225,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .logo img {
@@ -241,9 +242,15 @@ body {
     margin-left: 16px;
 }
 
-.icon {
-    width: 70%;
-    height: 70%;
+.social-icons .icon {
+    min-width: 35px;
+    height: 35px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
 }
 
 .third h3 {
@@ -252,5 +259,191 @@ body {
     font-weight: normal;
     display: flex;
     font-size: 18px;
+
+}
+
+/* Contact us */
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(51, 43, 43, 0.7), rgba(49, 43, 43, 0.7)), url(/images2/pexels-burst-374870.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+
+}
+
+.content h2 {
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contackInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    line-height: 1px;
+    font-weight: 300px;
+}
+
+.text h3 {
+    font-weight: 500px;
+    color: #00bcd4;
+}
+
+.text p {
+    font-size: 12px;
+}
+
+.contactForm {
+    width: 30%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputBox input,
+textarea {
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none
+}
+
+input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+
+/* Media Query */
+/* Device Test Pixel2 */
+@media only screen and (max-width:688px) {
+    .first {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .half h1 {
+        font-size: 40px;
+        margin-left: -136px;
+        padding-top: 65px;
+    }
+
+    .half a {
+        margin-left: 21px;
+    }
+
+    .half img {
+        width: 85%;
+        height: 85%;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0;
+        padding-right: 0;
+        padding-top: 80px;
+    }
+
+    .player-r1 {
+        flex-direction: column;
+    }
+
+    .player-r2 {
+        flex-direction: column;
+    }
+
+    .player-r3 {
+        flex-direction: column;
+    }
+
+    .team-box {
+        flex-direction: column;
+    }
+
+    .third {
+        width: 100%;
+        margin-bottom: 240px;
+    }
+
+    .third .footer-logos .logo img {
+        width: 70%;
+        height: 10%;
+        margin-left: 40px;
+        margin-top: 43px;
+    }
+
+    .social-icons {
+        width: 50%;
+    }
+
+    .contactForm {
+        width: 100%;
+    }
 
 }
