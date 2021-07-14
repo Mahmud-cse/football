@@ -1,4 +1,6 @@
-/* Custom css */
+/*--------------------------------------
+              Custom CSS 
+----------------------------------------*/
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +8,9 @@ body {
     box-sizing: border-box;
 }
 
-/* Header css */
+/*--------------------------------------
+              Header CSS
+----------------------------------------*/
 .first {
     background-color: #2D25A0;
     display: flex;
@@ -59,7 +63,9 @@ body {
     transition: transform 0.7s;
 }
 
-/* Players css */
+/*--------------------------------------
+             Players CSS
+----------------------------------------*/
 
 .player-r1 {
     display: flex;
@@ -90,9 +96,6 @@ body {
 .player {
     width: 300px;
     height: 420px;
-    /* margin-top: 27px; */
-    /* margin-left: 30px; */
-    /* margin-bottom: 27px; */
     border: 18px solid white;
     box-shadow: 0px 0px 40px #00000026;
 }
@@ -217,52 +220,9 @@ body {
     color: #0A66C2;
 }
 
-
-
-/* Footer css */
-.third {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.logo img {
-    width: 483.87px;
-    height: 110px;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 15%;
-    height: 15%;
-    margin-left: 16px;
-}
-
-.social-icons .icon {
-    min-width: 35px;
-    height: 35px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
-}
-
-.third h3 {
-    height: 31px;
-    width: 238px;
-    font-weight: normal;
-    display: flex;
-    font-size: 18px;
-
-}
-
-/* Contact us */
+/*--------------------------------------
+              Contact Us
+----------------------------------------*/
 
 .contact {
     position: relative;
@@ -380,8 +340,55 @@ input[type="submit"] {
     font-size: 18px;
 }
 
+/*--------------------------------------
+              Footer Css
+----------------------------------------*/
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 
-/* Media Query */
+.logo img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+    margin-left: 7px;
+}
+
+.social-icons .icon {
+    min-width: 35px;
+    height: 35px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.third h3 {
+    height: 31px;
+    width: 238px;
+    font-weight: normal;
+    display: flex;
+    font-size: 18px;
+
+}
+
+
+/*--------------------------------------
+              Media Query 
+----------------------------------------*/
 /* Device Test Pixel2 */
 @media only screen and (max-width:688px) {
     .first {
@@ -428,7 +435,7 @@ input[type="submit"] {
 
     .third {
         width: 100%;
-        margin-bottom: 240px;
+        margin-bottom: 170px;
     }
 
     .third .footer-logos .logo img {
